@@ -2,6 +2,9 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
+
+-- This file is automatically loaded by lazyvim.plugins.config
+
 local Util = require("lazyvim.util")
 
 local function map(mode, lhs, rhs, opts)
